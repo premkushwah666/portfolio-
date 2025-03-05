@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prem - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Prem kushwah</div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <!-- <li><a href="#experience">Experience</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="hero">
+            <h1>Hi, I'm <span style="color: var(--accent-color);">Prem</span></h1>
+            <p>My journey will be marked by a passion for creating robust and scalable digital solutions..</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </section>
+        
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about">
+                <div class="about-image">
+                    <div class="about-image-box">
+                        <!-- <img src="https://picsum.photos/id/1005/600/600" alt="Profile picture"> -->
+                        <img src="images\prem.jpg" alt="Profile picture">
+                    </div>
+                </div>
+                <div class="about-content">
+                    <p>A passionate learner and aspiring backend developer currently pursuing my education at Acropolis College. With a strong command of programming languages such as C and Java, I'm deeply committed to mastering the intricacies of backend development.</p>
+                    <p>Currently, I'm focused on [your current focus or interests]. When I'm not coding, you can find me [your hobbies or interests].</p>
+                    <div class="skills">
+                        <h3>My Skills</h3>
+                        <div class="skill-tags">
+                            <span class="tag java-tag">java</span>
+                            <span class="tag">C</span>
+                            <span class="tag">spring</span>
+                            <span class="tag">jdbc</span>
+                            <span class="tag">servlet</span>
+                            <span class="tag">jsp</span>
+                            <span class="tag">RESTful APIs</span>
+                            <span class="tag">Mysql</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">Microservices</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <!-- <img src="https://picsum.photos/id/180/600/400" alt="Project 1"> -->
+                        <img src="images\student-portal.png" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Student Portal</h3>
+                        <p>Student Portal Project Overview The Student Portal is a web-based application designed to streamline project assignment, progress tracking, user role management, and leaderboard functionalities for students, alumni, and administrators. It offers secure login, password recovery, and dynamic dashboards for effective collaboration.</p>
+                        <div class="project-tags">
+                            <span class="project-tag java">spring</span>
+                            <span class="project-tag">jdbc</span>
+                            <span class="project-tag">jsp</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Demo</a>
+                            <a href="https://github.com/premkushwah666/studentPortal" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images\journal-app.png" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>Secure Journal Entries Application</h3>
+                        <p>Developed a robust web application enabling users to securely create, read, update, and delete personal journal entries. Leveraged Spring Boot for rapid development and seamless integration, ensuring a scalable and maintainable codebase. Implemented Spring Security to enforce authentication and authorization protocols, safeguarding user data and enhancing application security.</p>
+                        <div class="project-tags">
+                            <span class="project-tag java">spring boot</span>
+                            <span class="project-tag">mongodb</span>
+                            <span class="project-tag">APIs</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Demo</a>
+                            <a href="https://github.com/premkushwah666/JournalApp"  target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://picsum.photos/id/24/600/400" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>Machine Learning Pipeline</h3>
+                        <p>An end-to-end machine learning pipeline built with Python. Includes data preprocessing, model training, evaluation, and deployment features.</p>
+                        <div class="project-tags">
+                            <span class="project-tag java">Python</span>
+                            <span class="project-tag">Scikit-learn</span>
+                            <span class="project-tag">TensorFlow</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        
+        <!-- <section id="experience">
+            <h2 class="section-title">Experience</h2>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3 class="experience-title">Senior Python Developer</h3>
+                    <span class="experience-date">Jan 2022 - Present</span>
+                </div>
+                <div class="experience-company">Company Name</div>
+                <div class="experience-description">
+                    <p>Lead development of enterprise Python applications using Django and Flask. Implemented CI/CD pipelines and improved application performance by 40%.</p>
+                </div>
+            </div>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3 class="experience-title">Python Developer</h3>
+                    <span class="experience-date">Jun 2019 - Dec 2021</span>
+                </div>
+                <div class="experience-company">Previous Company</div>
+                <div class="experience-description">
+                    <p>Designed and developed RESTful APIs using Python and Django framework. Worked with SQLAlchemy ORM for database operations and PyTest for testing. Collaborated in an Agile team environment.</p>
+                </div>
+            </div>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3 class="experience-title">Junior Python Developer</h3>
+                    <span class="experience-date">Jan 2018 - May 2019</span>
+                </div>
+                <div class="experience-company">First Company</div>
+                <div class="experience-description">
+                    <p>Developed and maintained Python applications. Worked on bug fixes and feature implementations. Gained experience with pip, Git, and SQL databases.</p>
+                </div>
+            </div>
+        </section>
+         -->
+        <section id="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Your message"></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="social-links">
+                <a href="https://github.com/premkushwah666" target="_blank" class="social-link">GitHub</a>
+                <a href="https://www.linkedin.com/in/premkushwah666/" target="_blank" class="social-link">LinkedIn</a>
+                <a href="https://leetcode.com/u/premkushwah666/" target="_blank" class="social-link">leetcode</a>
+            </div>
+            <p class="footer-text">@Override public void buildFuture(){ System.out.println("Coding Beyond Limits."); }</p>
+        </footer>
+    </div>
+    
+    <!-- Scroll to top button -->
+    <div class="scroll-top">↑</div>
+    
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav');
+        
+        menuToggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('active');
+            });
+        });
+        
+        // Smooth scrolling for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // Scroll to top button functionality
+        const scrollTopBtn = document.querySelector('.scroll-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollTopBtn.classList.add('visible');
+            } else {
+                scrollTopBtn.classList.remove('visible');
+            }
+        });
+        
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
